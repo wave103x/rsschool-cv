@@ -1,8 +1,6 @@
-![my-photo](./photo_1.jpg)
 # Mikhail Sprygin
----
-- discord wave#2204
-- https://t.me/wave_103
+- **Discord:** Misha (@WAve103x)
+- **Telegram:** [wave_103](https://t.me/wave_103)
 
 # About me
 My goal is to master a new profession. My passion is to realize own ideas into working projects. I have some knowledge and practice in design so I need skills to implement it at code.
@@ -12,7 +10,7 @@ I resort asking help in a pinch, prefer to find information by myself commonly. 
 # Code experience
 I'm learning C for foundamential computer science understanding and HTML, CSS, JavaSctipt, Git at RS School.
 
-This is example of my solution to reverse an order of given array at Codewars.
+This is example of my solution to reverse an order of given array at Codewars:
 ```
 void digitize(uintmax_t n, uint8_t digits[], size_t *length_out)
 {
@@ -44,5 +42,5 @@ void digitize(uintmax_t n, uint8_t digits[], size_t *length_out)
 I was working as a web-designer and Internet marketing specialist at a factory. My main job was to collaborate with web-agency's programmers and give them designs and technical tasks. During my work I experienced programming occupation and decided to change my job.
 
 # Education
-Bachelor of Mechanical Engineering, Ivanovo State Power University.
+Bachelor of Mechanical Engineering, Ivanovo State Power University.  
 Business English Course at Ivanovo State University.
