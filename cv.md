@@ -43,4 +43,5 @@ I was working as a web-designer and Internet marketing specialist at a factory. 
 
 ## Education
 Bachelor of Mechanical Engineering, Ivanovo State Power University.  
-Business English Course at Ivanovo State University.
+Business English Course at Ivanovo State University.  
+CS50's Introduction to Computer Science (in progress).
