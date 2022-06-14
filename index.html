@@ -1,10 +1,98 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <link rel="stylesheet" href="./style.css">
     <meta charset="utf-8">
     <title>CV</title>
 </head>
+
 <body>
+    <section class="wrapper white">
+        <section class="left-bar">
+            <img class="photo" src="photo_1.jpg" alt="employee photo" width="280" height="280">
+            <h1>Mikhail Sprygin</h1>
+            <h2 class="white">newbie web developer</h2>
+            <footer>
+                <ul id="contacts" class="contacts white">
+                    <li>Discord: Misha (@WAve103x)</li>
+                    <li><a href="mailto:wave103x@gmail.com" target="_blank"><b>email me</b></a></li>
+                    <li><a href="https://github.com/wave103x">GitHub</a></li>
+                </ul>
+            </footer>
+            <p>2022</p>
+            <a href="https://rs.school/js/" target="_blank"><img src="rs_school_js.svg" alt="RS School logo" width="112"></a>
+        </section>
+        <section class="right-bar">
+            <header>
+                <ul class="main-nav">
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#code">code</a></li>
+                    <li><a href="#career">career</a></li>
+                    <li><a href="#edu">edu</a></li>
+                    <li><a href="#lang">lang</a></li>
+                </ul>
+            </header>
+            <article class="text-block">
+                <h3 id="about">about me</h3>
+                <p>My goal is to master a new profession. My passion is to realize own ideas into working projects. I have some knowledge and practice in design so I need skills to implement it at code.</p>
+                <p>I resort asking help in a pinch, prefer to find information by myself commonly. In working at a team I appreciate calmness, proffesional approach, mutual understanding and respect.</p>
+                <p>Skills:</p>
+                <ul class="skills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>C</li>
+                    <li>JS</li>
+                </ul>
+            </article>
+            <article class="text-block">
+                <h3 id="code">code experience</h3>
+                <p>I'm learning C for foundamential computer science understanding along with HTML, CSS, JavaSctipt, Git at RS School.</p>
+                <p>This is example of my solution to reverse an order of given array at Codewars:</p>
+                <pre>
+void digitize(uintmax_t n, uint8_t digits[], size_t *length_out)
+{
+    if (n == 0)
+    {
+        *length_out = 1;
+        digits[0] = 0;
+    }
+    else
+    {
+        uintmax_t tmp = n;
+        int i = 0;
+        while (tmp >= 1)
+        {
+            tmp /= 10;
+            i++;
+        }
+        *length_out = i;
+
+        for (uintmax_t j = 0; j < i; j++)
+        {
+            digits[j] = n % 10;
+            n = (n - n % 10) / 10;
+        }
+    }
+}
+                </pre>
+            </article>
+            <article class="text-block">
+                <h3 id="career">my career path</h3>
+                <p>I was working as a web-designer and Internet marketing specialist at a factory. My main job was to collaborate with web-agency's programmers and give them designs and technical tasks. During my work I experienced programming occupation and decided to change my job.</p>
+            </article>
+            <article class="text-block">
+                <h3 id="edu">education</h3>
+                <p>Bachelor of Mechanical Engineering, Ivanovo State Power University.</p>
+                <p>Business English Course at Ivanovo State University.</p>
+                <p>CS50's Introduction to Computer Science (in progress).</p>
+            </article>
+            <article class="text-block">
+                <h3 id="lang">lang</h3>
+                <p>English B1</p>
+            </article>
+        </section>
+    </section>
 </body>
+
 </html>
