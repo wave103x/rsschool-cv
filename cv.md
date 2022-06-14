@@ -5,7 +5,7 @@
 ## About me
 My goal is to master a new profession. My passion is to realize own ideas into working projects. I have some knowledge and practice in design so I need skills to implement it at code.
 
-I resort asking help in a pinch, prefer to find information by myself commonly. In working at a team I appreciate calmness, proffesional approach, mutual understanding and respect. 
+In working at a team I appreciate calmness, proffesional approach, mutual understanding and respect. 
 
 ## Code experience
 I'm learning C for foundamential computer science understanding and HTML, CSS, JavaSctipt, Git at RS School.
@@ -45,3 +45,6 @@ I was working as a web-designer and Internet marketing specialist at a factory. 
 Bachelor of Mechanical Engineering, Ivanovo State Power University.  
 Business English Course at Ivanovo State University.  
 CS50's Introduction to Computer Science (in progress).
+
+## Language
+English B1.
