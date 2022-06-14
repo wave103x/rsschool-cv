@@ -8,8 +8,8 @@
 </head>
 
 <body>
-    <section class="wrapper white">
-        <section class="left-bar">
+    <main class="wrapper white">
+        <div class="left-bar">
             <div class="portrait">
                 <img class="tear" src="tear.svg" alt="tear">
                 <img class="photo" src="photo_1.jpg" alt="employee photo" width="280" height="280">
@@ -24,9 +24,10 @@
                 </ul>
             </footer>
             <p>2022</p>
-            <a href="https://rs.school/js/" target="_blank"><img src="rs_school_js.svg" alt="RS School logo" width="112"></a>
-        </section>
-        <section class="right-bar">
+            <a href="https://rs.school/js/" target="_blank"><img src="rs_school_js.svg" alt="RS School logo"
+                    width="112"></a>
+        </div>
+        <div class="right-bar">
             <header>
                 <ul class="main-nav">
                     <li><a href="#about">about</a></li>
@@ -38,21 +39,27 @@
             </header>
             <article class="text-block">
                 <h3 id="about">about me</h3>
-                <p>My goal is to master a new profession. My passion is to realize own ideas into working projects. I have some knowledge and practice in design so I need skills to implement it at code.</p>
-                <p>I resort asking help in a pinch, prefer to find information by myself commonly. In working at a team I appreciate calmness, proffesional approach, mutual understanding and respect.</p>
-                <p>Skills:</p>
+                <p>My goal is to master a new profession. My passion is to realize own ideas into working projects. I
+                    have some knowledge and practice in design so I need skills to implement it in code.</p>
+                <p>In working at a team I appreciate calmness, proffesional approach, mutual understanding and respect.
+                </p>
+                <p>My skills:</p>
                 <ul class="skills">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>C</li>
                     <li>JS</li>
+                    <li>Figma</li>
                 </ul>
             </article>
             <article class="text-block">
                 <h3 id="code">code experience</h3>
-                <p>I'm learning C for foundamential computer science understanding along with HTML, CSS, JavaSctipt, Git at RS School.</p>
-                <p>This is example of my solution to reverse an order of given array at Codewars:</p>
-                <pre>
+                <p>I'm learning C for foundamential computer science understanding along with HTML, CSS, JavaSctipt, Git
+                    at RS School.</p>
+                <p>This is example of <a
+                        href="https://www.codewars.com/kata/reviews/617073e1789edf00012884ec/groups/6253fb94d465430001bd83f4"
+                        target="_blank">my solution</a> to reverse an order of given array at Codewars:</p>
+                <pre><code>
 void digitize(uintmax_t n, uint8_t digits[], size_t *length_out)
 {
     if (n == 0)
@@ -64,38 +71,42 @@ void digitize(uintmax_t n, uint8_t digits[], size_t *length_out)
     {
         uintmax_t tmp = n;
         int i = 0;
-        while (tmp >= 1)
+        while (tmp &gt;= 1)
         {
             tmp /= 10;
             i++;
         }
         *length_out = i;
 
-        for (uintmax_t j = 0; j < i; j++)
+        for (uintmax_t j = 0; j &lt; i; j++)
         {
             digits[j] = n % 10;
             n = (n - n % 10) / 10;
         }
     }
 }
-                </pre>
+</code></pre>
             </article>
             <article class="text-block">
                 <h3 id="career">my career path</h3>
-                <p>I was working as a web-designer and Internet marketing specialist at a factory. My main job was to collaborate with web-agency's programmers and give them designs and technical tasks. During my work I experienced programming occupation and decided to change my job.</p>
+                <p>I was working as a web-designer and Internet marketing specialist at a factory. My main job was to
+                    collaborate with web-agency's programmers and give them designs and technical tasks. During my work
+                    I experienced programming world and decided to change my occupation.</p>
             </article>
             <article class="text-block">
                 <h3 id="edu">education</h3>
-                <p>Bachelor of Mechanical Engineering, Ivanovo State Power University.</p>
-                <p>Business English Course at Ivanovo State University.</p>
-                <p>CS50's Introduction to Computer Science (in progress).</p>
+                <ul class="education">
+                    <li>Bachelor of Mechanical Engineering, Ivanovo State Power University.</li>
+                    <li>Business English Course at Ivanovo State University.</li>
+                    <li>CS50's Introduction to Computer Science (in progress).</li>
+                </ul>
             </article>
             <article class="text-block">
                 <h3 id="lang">lang</h3>
                 <p>English B1</p>
             </article>
-        </section>
-    </section>
+        </div>
+    </main>
 </body>
 
 </html>
