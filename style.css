@@ -76,14 +76,20 @@ ul.contacts li {
     position: relative;
     border-radius: 60px;
 }
-.photo::before {
-    content: './tear.svg';
-    position: absolute;
-    width: 10px;
-    height: 20px;
-    top: 0;
-    left: 0;
+
+.portrait {
+    position: relative;
 }
+
+.tear {
+    position: absolute;
+    top: 88px;
+    left: 138px;
+}
+.portrait:hover .tear{
+    z-index: 1;
+}
+
 
 
 
