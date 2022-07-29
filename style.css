@@ -72,6 +72,10 @@ ul.contacts li {
     border-radius: 60px;
 }
 
+.photo:hover {
+    filter: grayscale(60%);
+}
+
 .portrait {
     position: relative;
 }
